@@ -2,22 +2,27 @@ public class HelloWorld {
 
     public static void main(String args[])
     {
-        int num = 3;
-        byte byte1 = 98;
-        short short1 = 32;
-        long long1 = 5853L;
-        float float1 = 2.5f;
-        double double1 = 3.4546;
-        char c1 = 'E';
-        boolean boolean1 = false;
+        //int int1 = 9;
+        //double double1 = int1;
 
-        System.out.println(num);
-        System.out.println(byte1);
-        System.out.println(short1);
-        System.out.println(long1);
-        System.out.println(float1);
-        System.out.println(double1);
-        System.out.println(c1);
-        System.out.println(boolean1);
+        //double double2 = 5.63d;
+        //int int2 = (int) double2;
+
+        int maxPoints = 1000;
+        int userPoints = 730;
+
+        float percentage = (float) maxPoints / userPoints * 100;
+
+        System.out.println("The Percentage is.. " + percentage + "%");
+
+
+
+        //System.out.println(int1);
+        //System.out.println(double1);
+
+        //System.out.println(double2);
+        //System.out.println(int2);
+
+
     }
 }
