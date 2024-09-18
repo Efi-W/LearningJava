@@ -2,23 +2,16 @@ public class HelloWorld {
 
     public static void main(String args[])
     {
-      int i = 0;
 
-      do{
-          System.out.println(i);
-          i++;
-      }
-      while (i<=10);
+        int countdown = 10;
+        while (countdown >= 0){
 
-      //Loop always execute once, even if condition false, because code is ran before condition tested.
-        //If condition true it will keep looping after
+            System.out.println(countdown);
+            countdown--;
 
+        }
 
-
-
-
-
-
+       System.out.println("Countdown ended");
 
     }
 }
