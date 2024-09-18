@@ -2,21 +2,19 @@ public class HelloWorld {
 
     public static void main(String args[])
     {
-      int i = 1;
+      int i = 0;
 
-      while (i <= 5)
-      {
-         System.out.println("Outer loop " + i);
-         int j = 1;
-         while (j<=2)
-         {
-             System.out.println("Inner loop " + j);
-             j++; //increment
-         }
-
-
-         i++; //increment
+      do{
+          System.out.println(i);
+          i++;
       }
+      while (i<=10);
+
+      //Loop always execute once, even if condition false, because code is ran before condition tested.
+        //If condition true it will keep looping after
+
+
+
 
 
 
