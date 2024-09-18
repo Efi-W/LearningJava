@@ -2,15 +2,23 @@ public class HelloWorld {
 
     public static void main(String args[])
     {
+        //boolean isThisTrue = true;
+        //boolean isThisAlsoTrue = false;
 
-        Math.max(12,20);  // Finds max number
-        Math.min(12,20);  //Finds min number
-        Math.sqrt(144);  //Square root
-        Math.abs(-2.5);  // Turns negative to positive
-        Math.random();  // Returns random number
+       // System.out.println(isThisTrue);
+        //System.out.println(isThisAlsoTrue);
 
-        int randomNum = (int)(Math.random() * 101); // Prints Random number 0-100
-        System.out.println(randomNum);
+        int a = 10;
+        int b = 17;
+        int x = 7;
+        int y = 6;
+
+        boolean result = a>b && x<y; //and
+        boolean result2 = a>y || b==y; //or
+
+        System.out.println(result);
+        System.out.println(result2);
+
 
 
 
