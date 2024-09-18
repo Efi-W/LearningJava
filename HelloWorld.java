@@ -2,10 +2,19 @@ public class HelloWorld {
 
     public static void main(String args[])
     {
-      int time = 20;
+      int myAge = 17;
+      int requiredAge = 18;
 
-      String result = (time<18) ? "Good Day" : "Good Evening";
-      System.out.println(result);
+      if (myAge >= requiredAge)
+      {
+          System.out.println("You are old enough");
+      }
+      else
+      {
+          System.out.println("You are not old enough");
+      }
+
+
 
 
     }
