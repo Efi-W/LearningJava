@@ -2,18 +2,41 @@ public class HelloWorld {
 
     public static void main(String args[])
     {
-      int myAge = 17;
-      int requiredAge = 18;
+      int day = 9;
 
-      if (myAge >= requiredAge)
+      switch(day)
       {
-          System.out.println("You are old enough");
-      }
-      else
-      {
-          System.out.println("You are not old enough");
-      }
+          case 1:
+              System.out.println("Monday");
+              break;
 
+          case 2:
+              System.out.println("Tuesday");
+              break;
+
+          case 3:
+              System.out.println("Wednesday");
+              break;
+
+          case 4:
+              System.out.println("Thursday");
+              break;
+
+          case 5:
+              System.out.println("Friday");
+              break;
+
+          case 6:
+              System.out.println("Saturday");
+              break;
+
+          case 7:
+              System.out.println("Sunday");
+              break;
+
+          default:
+              System.out.println("No day for that number");
+      }
 
 
 
