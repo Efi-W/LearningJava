@@ -1,6 +1,6 @@
 class Computer
 {
-
+    public static void main(String a[]){}
     public void playMusic()
     {
         System.out.println("Music playing..");
