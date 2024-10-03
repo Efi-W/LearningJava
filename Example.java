@@ -17,13 +17,15 @@ public class Example
         myNumbers[1][2] = 9;
         System.out.println(myNumbers[1][2]);
 
+        System.out.println(myNumbers.length);
+
 
         for (int i = 0; i < myStrings.length; i++) {
             System.out.println(myStrings[i]);
 
         }
         for (int i = 0; i < myNumbers.length; ++i) {
-            for (int j = 0; j < myNumbers[i].length; ++j) {
+           for (int j = 0; j < myNumbers[i].length; ++j) {
                 System.out.println(myNumbers[i][j]);
             }
         }
