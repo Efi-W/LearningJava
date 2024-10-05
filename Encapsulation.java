@@ -8,6 +8,12 @@ class Info
         age = 31;
         name = "John";
     }
+    public Info(int age, String name)
+    {
+       this.age = age;
+       this.name= name;
+
+    }
 
     public int getAge()
     {
