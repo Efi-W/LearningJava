@@ -1,3 +1,5 @@
+package test;
+
 public class Inheritance2
 {
     public int multi(int n1, int n2)
@@ -9,4 +11,5 @@ public class Inheritance2
     {
         return n2/n1;
     }
+
 }

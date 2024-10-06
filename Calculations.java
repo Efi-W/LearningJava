@@ -1,3 +1,6 @@
+import test.Inheritance;
+import test.*;
+
 public class Calculations
 {
     public static void main(String[] args)
@@ -10,4 +13,6 @@ public class Calculations
 
         System.out.println(r1 + " " + r2+ " " + r3 + " " + r4);
     }
+
+    Inheritance obj = new Inheritance();
 }
